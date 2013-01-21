@@ -1,4 +1,4 @@
-essential
+black-box abstraction
 *primitive elements
 *combination () for composition COND IF
 *abstraction DEFINE
@@ -11,3 +11,9 @@ To Evaluate a express
     copy the body of the procedure
     substituting args supplied for the formal paramenters of the proc
     eval the resulting new body
+
+Iteration and recursion
+program crash.
+
+Hanoni tower
+"have to believe "
