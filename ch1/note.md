@@ -1,7 +1,17 @@
 black-box abstraction
 *primitive elements
+  value of expression isjust itself.
+  boolean #t, #f
+  built-in procedures to manipulate primitive obj
+  evaluating by looking up value in special table
 *combination () for composition COND IF
 *abstraction DEFINE
+
+(define (<name> <para>) <body>)
+(lambda (<name> <para>) <body>) special form
+(define (<name> <para>) 
+         <lambda>
+         	)
 
 substition model
 To Evaluate a express
@@ -15,5 +25,3 @@ To Evaluate a express
 Iteration and recursion
 program crash.
 
-Hanoni tower
-"have to believe "
