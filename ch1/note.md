@@ -13,6 +13,11 @@ black-box abstraction
          <lambda>
          	)
 
+(define (<name> <para>) 
+         (lambda (<name> <para>) <body>)
+         	)
+parameters are internal to proc.
+
 substition model
 To Evaluate a express
   eval the operator to get proc
@@ -22,6 +27,27 @@ To Evaluate a express
     substituting args supplied for the formal paramenters of the proc
     eval the resulting new body
 
-Iteration and recursion
-program crash.
+(define (fizz x y z)
+  (lambda (x y z) (+ x z)))
 
+(if <predicate> <consequence><alternative>) 
+
+
+how to design recursive
+1. wishful thinking
+   assume the desired proc exists
+   BUT, only solves a smaller version of it.
+2. decompose the problem
+3. identify non-decomposable
+    base case
+
+
+Iteration:
+program crash.
+associative and commutative, the order don't matters.
+pending operation make it grows
+
+
+prove by induction
+
+n=0, and n= n+1 is true, and true for all n
